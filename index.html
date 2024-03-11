@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <title>Try 2 build my 1st webpage</title>
+        <!--<style>
+            h1 {
+                color:blue;
+            }
+        </style>-->
+        <link rel="shortcut icon" href="C:\Users\12879\Desktop\HTML\favicon.ico" />
+        <link rel="stylesheet" href="C:\Users\12879\Desktop\HTML\style.css">
+    </head>
+    <body>
+        <div class="box1">
+            <h1>title1</h1>
+            <p style="color:red">Lorem, ipsum dolor <strong>sit <a href="https://bilibili.com" target="_blank">amet</strong> consectetur</a> adipisicing elit. Rerum aut quae culpa natus expedita consequuntur fuga inventore ratione a velit non, eaque ea necessitatibus labore repellat sapiente, fugit vel officia.</p>
+        </div>
+        <p class="p1">Yep</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita fugiat, exercitationem tempora voluptatibus porro quam dicta quidem maxime officia laborum facilis dignissimos laudantium ipsum itaque inventore soluta repellat? Nihil ipsum sit nam molestias eius ab, placeat temporibus error, corporis possimus qui eaque minus dignissimos eligendi repellat earum quia suscipit quisquam nobis maiores voluptates tempora excepturi itaque. Ratione rerum quia debitis optio, est, ea id placeat sequi ab esse numquam tempora velit eius distinctio officiis accusamus alias veritatis aperiam neque aspernatur blanditiis. Libero cumque aperiam perspiciatis provident, repudiandae consequatur? Enim laboriosam, est repellendus voluptatem blanditiis ut? Amet dolor earum sed alias!</p>
+        <button><a name="url" href="https://bilibili.com" target="_blank"> 点我 </a></button>
+        
+
+        <div class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, voluptates recusandae nobis fugit laborum voluptatem, asperiores eius at distinctio temporibus voluptatibus fuga. Dolores ea, ab necessitatibus nihil mollitia sequi fuga.</p>
+        </div>
+        <div class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis animi necessitatibus quod nulla illo id asperiores aspernatur iusto non veritatis voluptatibus, obcaecati doloremque nihil, corrupti sit exercitationem repellat est dicta!</p>
+        </div>
+        <div class="block">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis laborum commodi possimus voluptates nihil? Quaerat illum dolor, amet ducimus magnam placeat magni harum quibusdam adipisci sit aut debitis sint pariatur.</p>
+        </div>
+        <P>////////////////////////////////////////////////////////////////////////////////</P>
+        <button id="bb">啊嘞</button>
+        <input type="text" name='kuang'>
+
+        <script>
+            var t=document.getElementById("bb");
+            t.addEventListener('click',function(){
+                t.innerHTML="啊嘞嘞";
+                t.style.color="blue";
+                setTimeout(function(){
+                    t.innerHTML="啊嘞嘞嘞嘞嘞"
+                },2000);
+            })
+
+            var element = document.getElementsByName("kuang")[0];
+            element.addEventListener('input',function(){
+
+                element.value=element.value.toUpperCase();
+
+            })
+        </script>
+    </body>
+</HTML>
